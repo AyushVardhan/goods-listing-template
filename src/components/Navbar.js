@@ -15,7 +15,7 @@ const PageNavbar = () =>{
           
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto" style={{marginRight:"2%"}}>
-                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#">Home</Nav.Link>
                     <Nav.Link href="#categories">Categories</Nav.Link>
                     <Nav.Link href="#contribute">Contribute</Nav.Link>
                 </Nav> 

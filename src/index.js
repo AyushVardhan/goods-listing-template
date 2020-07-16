@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 import PageNavbar from './components/Navbar';
 import TopJumbotron from './components/TopJumbotron';
+import ProductCategories from './components/ProductCategories';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -20,6 +21,13 @@ ReactDOM.render(
     <TopJumbotron />
   </React.StrictMode>,
   document.getElementById('jumbotron')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <ProductCategories />
+  </React.StrictMode>,
+  document.getElementById('categories')
 );
 
 // If you want your app to work offline and load faster, you can change
