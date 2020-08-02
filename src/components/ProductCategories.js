@@ -91,7 +91,7 @@ const ApparelComponent = () => {
 
 const WatchesComponent = () => {
     return(
-        <Container>
+        <Container className="mb-5">
             <Row style={{marginTop:"5%"}}>
                 <div class="col-12 col-sm-4 col-md-3">
                     <h1>Watches</h1>

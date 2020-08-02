@@ -9,6 +9,7 @@ import PageNavbar from './components/Navbar';
 import TopJumbotron from './components/TopJumbotron';
 import ProductCategories from './components/ProductCategories';
 import Introduction from './components/Introduction';
+import Contribute from './components/Contribute';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -37,6 +38,13 @@ ReactDOM.render(
     <ProductCategories />
   </React.StrictMode>,
   document.getElementById('categories')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Contribute />
+  </React.StrictMode>,
+  document.getElementById('contribute')
 );
 
 // If you want your app to work offline and load faster, you can change
