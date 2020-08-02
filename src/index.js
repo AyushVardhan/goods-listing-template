@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import PageNavbar from './components/Navbar';
 import TopJumbotron from './components/TopJumbotron';
 import ProductCategories from './components/ProductCategories';
+import Introduction from './components/Introduction';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -22,6 +23,14 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('jumbotron')
 );
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Introduction />
+  </React.StrictMode>,
+  document.getElementById('intro')
+);
+
 
 ReactDOM.render(
   <React.StrictMode>
